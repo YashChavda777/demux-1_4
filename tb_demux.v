@@ -9,14 +9,19 @@ module tb_demux;
             initial begin
             
             I = 1;
+                    
             S = 2'b00;
             #100;
+                    
             S = 2'b01;
             #100;
+                    
             S = 2'b10;
             #100;
+                    
             S = 2'b11;
             #100;
+                    
             I = 0;
             
             end     
